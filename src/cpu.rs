@@ -4,7 +4,7 @@ pub fn run() {
     println!("Prime numbers:");
     let mut prime_numbers: Vec<u128> = Vec::new();
 
-    for i in 2..1_000_000 {
+    for i in 2..10000 {
         if is_prime(i) == 1 {
             prime_numbers.push(i);
         }
